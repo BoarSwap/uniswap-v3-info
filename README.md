@@ -1,24 +1,21 @@
-## Uniswap Info V3
+# Uniswap Info (V1 + V2)
 
-An open sourced interface for Uniswap V3 analytics. 
+[![Lint](https://github.com/Uniswap/uniswap-info/workflows/Lint/badge.svg)](https://github.com/Uniswap/uniswap-info/actions?query=workflow%3ALint)
+[![Deploy](https://github.com/Uniswap/uniswap-info/workflows/Deploy/badge.svg)](https://github.com/Uniswap/uniswap-info/actions?query=workflow%3ADeploy)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
-Info URL: https://info.uniswap.org/#/
+Analytics site for the [Uniswap Protocol](https://uniswap.org).
 
-## Development
+Includes support for Uniswap V1 and V2. For Uniswap V3 info see https://github.com/Uniswap/uniswap-v3-info
 
-### Install Dependencies
+### To Start Development
 
+###### Installing dependencies
 ```bash
 yarn
 ```
 
-### Run
-
+###### Running locally
 ```bash
 yarn start
 ```
-
-## Contributions
-
-**Please open all pull requests against the `master` branch.**
-CI checks will run against all PRs.
